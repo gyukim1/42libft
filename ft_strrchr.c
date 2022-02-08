@@ -6,7 +6,7 @@
 /*   By: gnam <gnam@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/28 01:06:27 by gnam              #+#    #+#             */
-/*   Updated: 2021/12/21 19:29:26 by gnam             ###   ########.fr       */
+/*   Updated: 2022/02/09 00:13:49 by gnam             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ char	*ft_strrchr(const char *s, int c)
 			return (s1 + i);
 		i--;
 	}
-	if (s1[i] == c)
+	if (s1[i] == (char)c)
 		return (s1);
 	return (0);
 }
